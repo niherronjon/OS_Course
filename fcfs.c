@@ -9,7 +9,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n;
     printf("Enter number of processes: ");
     scanf("%d", &n);
@@ -24,11 +25,13 @@ int main() {
     }
 
     waitingTime[0] = 0;
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i < n; i++)
+        {
         waitingTime[i] = waitingTime[i - 1] + burstTime[i - 1];
     }
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         turnaroundTime[i] = waitingTime[i] + burstTime[i];
     }
 
