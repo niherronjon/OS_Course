@@ -1,4 +1,4 @@
-//First Come First Serve (FCFS)
+//First Come First Serve (FCFS) Algorithm
 
 
 // New File create : touch fcfs.c
