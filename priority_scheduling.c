@@ -1,4 +1,4 @@
-//Priority scheduling
+//Priority scheduling Algorithm using C program.
 
 
 // New File create : priority_scheduling.c
